@@ -1,6 +1,7 @@
 # hugo
 
 .hugo_build.lock
+/public
 
 # macOS
 

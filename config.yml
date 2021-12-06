@@ -24,7 +24,7 @@ outputs:
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
   title: Pieris' Blog
-  description: "ExampleSite description"
+  # description: "ExampleSite description"
   keywords: [Blog]
   author: Pieris
   # author: ["Me", "You"] # multiple authors
@@ -86,7 +86,7 @@ params:
     # - name: stackoverflow
     #   url: "https://stackoverflow.com"
     - name: github
-      url: "https://github.com/thu-Pieris/"
+      url: "https://github.com/thu-Pieris"
     - name: keybase
       url: "https://keybase.io/pieris05"
     - name: other
@@ -108,7 +108,7 @@ params:
     hiddenInSingle: true # hide on single page
 
   editPost:
-    URL: "https://github.com/<path_to_repo>/content"
+    URL: "https://github.com/THU-Pieris/blog-hugo/content"
     Text: "Suggest Changes" # edit text
     appendFilePath: true # to append file path to Edit link
 

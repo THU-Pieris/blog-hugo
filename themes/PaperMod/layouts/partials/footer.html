@@ -3,12 +3,13 @@
     {{- if .Site.Copyright }}
     <span>{{ .Site.Copyright | markdownify }}</span>
     {{- else }}
-    <span>&copy; {{ now.Year }} <a href="{{ "" | absLangURL }}">{{ .Site.Title }}</a></span>
+    <span>{{ now.Year }} <a href="{{ "" | absLangURL }}">{{ .Site.Title }}</a> | <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" rel="noopener noreferrer" target="_blank">CC BY-NC-SA 4.0</a></span>
     {{- end }}
     <span>
-        Powered by
+        | Powered by
         <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
-        <a href="https://git.io/hugopapermod" rel="noopener" target="_blank">PaperMod</a>
+        <a href="https://git.io/hugopapermod" rel="noopener" target="_blank">PaperMod</a> &
+        <a href="https://pages.dev" rel="noopener noreferrer" target="_blank">Cloudflare Pages</a>
     </span>
 </footer>
 {{- end }}

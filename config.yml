@@ -91,6 +91,8 @@ params:
       url: "https://keybase.io/pieris05"
     - name: Mainpage
       url: "https://pieris05.com"
+    - name: Email
+      url: "https://follow.it/pieris-blog?action=followPub"
     - name: RSS
       url: "index.xml"
 

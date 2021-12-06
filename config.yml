@@ -42,7 +42,7 @@ params:
   disableScrollToTop: false
   comments: false
   hidemeta: false
-  hideSummary: true
+  # hideSummary: false
   showtoc: true
   tocopen: false
 
@@ -81,10 +81,6 @@ params:
     Content: Welcome to my blog
 
   socialIcons:
-    # - name: twitter
-    #   url: "https://twitter.com/"
-    # - name: stackoverflow
-    #   url: "https://stackoverflow.com"
     - name: github
       url: "https://github.com/thu-Pieris"
     - name: keybase

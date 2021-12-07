@@ -4,3 +4,6 @@
 [submodule "themes/kagome"]
 	path = themes/kagome
 	url = https://github.com/miiiku/hugo-theme-kagome.git
+[submodule "themes/hugo-theme-stack"]
+	path = themes/hugo-theme-stack
+	url = https://github.com/CaiJimmy/hugo-theme-stack/

@@ -19,12 +19,12 @@ DefaultContentLanguage: en
 hasCJKLanguage: true
 
 permalinks:
-    post: /posts/:slug/
+    post: /p/:slug/
     page: /:slug/
 
 params:
     mainSections:
-        - posts
+        - post
     featuredImageField: image
     rssFullContent: true
     favicon:

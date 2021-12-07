@@ -1,0 +1,112 @@
+baseURL = "https://blog.pieris05.com"
+languageCode = "en-us"
+title = "Pieris' Blog"
+paginate = 5
+theme = "kagome"
+enableRobotsTXT = true
+buildDrafts = false
+buildFuture = false
+buildExpired = false
+enableEmoji = true
+
+[minify]
+disableXML = true
+minifyOutput = true
+
+[outputs]
+home = [ "HTML", "RSS", "JSON" ]
+
+[params]
+env = "production"
+title = "Pieris' Blog"
+keywords = [ "Blog" ]
+author = "Pieris"
+defaultTheme = "auto"
+disableThemeToggle = false
+ShowReadingTime = true
+ShowShareButtons = true
+ShowPostNavLinks = true
+ShowBreadCrumbs = true
+ShowCodeCopyButtons = true
+disableSpecial1stPost = false
+disableScrollToTop = false
+comments = true
+hidemeta = false
+hideSummary = false
+showtoc = true
+tocopen = false
+
+  [params.assets]
+  favicon = "<link / abs url>"
+  favicon16x16 = "<link / abs url>"
+  favicon32x32 = "<link / abs url>"
+  apple_touch_icon = "<link / abs url>"
+  safari_pinned_tab = "<link / abs url>"
+
+  [params.label]
+  text = "Pieris' Blog"
+
+  [params.profileMode]
+  enabled = false
+  title = "ExampleSite"
+  subtitle = "This is subtitle"
+  imageUrl = "<img location>"
+  imageWidth = 120
+  imageHeight = 120
+  imageTitle = "my image"
+
+    [[params.profileMode.buttons]]
+    name = "Posts"
+    url = "posts"
+
+    [[params.profileMode.buttons]]
+    name = "Tags"
+    url = "tags"
+
+  [params.homeInfoParams]
+  Title = "Hi there 👋"
+  Content = "Welcome to my blog"
+  
+[menu]
+  [[menu.social]]
+    identifier = "github"
+    name = "github"
+    url = "https://github.com/thu-Pieris"
+    weight = 1
+
+  [params.cover]
+  hidden = true
+  hiddenInList = true
+  hiddenInSingle = true
+
+  [params.editPost]
+  URL = "https://github.com/THU-Pieris/blog-hugo/blob/master/content"
+  Text = "GitHub Link"
+  appendFilePath = true
+
+  [params.fuseOpts]
+  isCaseSensitive = false
+  shouldSort = true
+  location = 0
+  distance = 1_000
+  threshold = 0.4
+  minMatchCharLength = 0
+  keys = [ "title", "permalink", "summary", "content" ]
+
+[[menu.main]]
+identifier = "categories"
+name = "Categories"
+url = "/categories/"
+weight = 10
+
+[[menu.main]]
+identifier = "tags"
+name = "Tags"
+url = "/tags/"
+weight = 20
+
+[author]
+  name = "Pieris"
+  email = "me@pieris05.com"
+  description = "MUG / VOCALOID"
+  avatar = "https://cdn.jsdelivr.net/gh/THU-Pieris/pieris-mainpage@6089b6da426d0246512a58d0b891ea0fe9d5103a/images/logo.svg"

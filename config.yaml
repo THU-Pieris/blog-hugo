@@ -19,7 +19,7 @@ DefaultContentLanguage: en
 hasCJKLanguage: true
 
 permalinks:
-    post: /post/:slug/
+    post: /posts/:slug/
     page: /:slug/
 
 params:
@@ -30,7 +30,7 @@ params:
     favicon:
 
     footer:
-        since: 2020
+        since: 2021
         customText:
 
     dateFormat:
@@ -43,7 +43,7 @@ params:
         avatar:
             enabled: true
             local: true
-            src: img/photo.jpg 
+            src: img/profile.jpg 
 
     article:
         math: false
@@ -176,7 +176,7 @@ menu:
           weight: -100
           params:
               ### For demonstration purpose, the home link will be open in a new tab
-              newTab: true
+              newTab: false
               icon: home
     
     social:

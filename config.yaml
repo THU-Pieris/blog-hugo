@@ -38,7 +38,7 @@ params:
         lastUpdated: Jan 02, 2006 15:04 MST
 
     sidebar:
-        emoji: 🍥
+        emoji: 🎉
         subtitle: MUG / SynthV / VOCALOID
         avatar:
             enabled: true
@@ -46,7 +46,7 @@ params:
             src: img/profile.jpg 
 
     article:
-        math: false
+        math: true
         toc: true
         readingTime: true
         license:
@@ -136,7 +136,7 @@ params:
             limit: 5
 
         tagCloud:
-            limit: 10
+            limit: 15
 
     opengraph:
         twitter:
@@ -185,12 +185,30 @@ menu:
           url: https://github.com/THU-Pieris
           params:
             icon: brand-github
+
+        - identifier: rss
+          name: RSS
+          url: /index.xml
+          params:
+            icon: rss
             
-        # - identifier: twitter
-        #   name: Twitter
-        #   url: https://twitter.com
-        #   params:
-        #     icon: brand-twitter
+        - identifier: keybase
+          name: Keybase
+          url: https://keybase.io/pieris05
+          params:
+            icon: key
+
+        - identifier: mainpage
+          name: Mainpage
+          url: https://pieris05.com
+          params:
+            icon: world
+
+        - identifier: r-mail
+          name: r-mail
+          url: https://follow.it/pieris-blog?action=followPub
+          params:
+            icon: mail
 
 related:
     includeNewer: true

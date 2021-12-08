@@ -19,7 +19,7 @@ DefaultContentLanguage: en
 hasCJKLanguage: true
 
 permalinks:
-    post: /p/:slug/
+    post: /post/:slug/
     page: /:slug/
 
 params:
@@ -46,11 +46,11 @@ params:
             src: img/profile.jpg 
 
     article:
-        math: true
+        math: false
         toc: true
         readingTime: true
         license:
-            enabled: true
+            enabled: false
             default: Licensed under CC BY-NC-SA 4.0
 
     comments:

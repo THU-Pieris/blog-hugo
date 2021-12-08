@@ -1,9 +1,7 @@
 ---
 title: "Archive"
 layout: "archives"
-url: "/archives/"
-summary: archives
-# description: this is a description
+slug: "archives"
 menu: 
     main:
         name: Archives

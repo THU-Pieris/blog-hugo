@@ -181,34 +181,46 @@ menu:
     
     social:
         - identifier: github
-          name: GitHub
+          name: a-GitHub
           url: https://github.com/THU-Pieris
           params:
             icon: brand-github
 
         - identifier: rss
-          name: RSS
+          name: f-RSS
           url: /index.xml
           params:
             icon: rss
             
         - identifier: keybase
-          name: Keybase
+          name: c-Keybase
           url: https://keybase.io/pieris05
           params:
             icon: key
 
         - identifier: mainpage
-          name: Mainpage
+          name: d-Mainpage
           url: https://pieris05.com
           params:
             icon: world
 
-        - identifier: r-mail
-          name: r-mail
+        - identifier: mail
+          name: e-mail
           url: https://follow.it/pieris-blog?action=followPub
           params:
             icon: mail
+
+        - identifier: youtube
+          name: b-youtube
+          url: https://www.youtube.com/channel/UCjLJRlA7Del-8qQX3ObU9HA
+          params:
+            icon: youtube
+
+        # - identifier: paypal
+        #   name: g-paypal
+        #   url: https://www.youtube.com/channel/UCjLJRlA7Del-8qQX3ObU9HA
+        #   params:
+        #     icon: paypal
 
 related:
     includeNewer: true

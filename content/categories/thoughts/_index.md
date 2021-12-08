@@ -1,6 +1,6 @@
 ---
 title: "thoughts"
-image: 
+image: "icon.svg"
 style:
     background: "#D9CD90"
     color: "#fff"

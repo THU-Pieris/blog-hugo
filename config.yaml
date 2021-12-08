@@ -208,7 +208,7 @@ menu:
           name: e-mail
           url: https://follow.it/pieris-blog?action=followPub
           params:
-            icon: mail
+            icon: mailbox
 
         - identifier: youtube
           name: b-youtube

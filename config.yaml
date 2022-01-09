@@ -67,7 +67,7 @@ params:
         utterances:
             repo: THU-Pieris/blog-comment
             issueTerm: title
-            label: comment
+            label: hugo
 
         remark42:
             host:

@@ -16,4 +16,3 @@ description:
 > 本文在[Craft](https://www.craft.do)上撰写并更新。可访问以下链接：
 >  
 > - 原文: <>
-> - PDF: [GitHub]()
